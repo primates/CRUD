@@ -10,3 +10,12 @@ CREATE TABLE users (
     password VARCHAR(255),
     active BOOLEAN
 );
+
+
+Dependencies: Ensure you have the MySQL JDBC driver in your classpath. If using Maven, add this to your pom.xml
+
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.29</version>
+</dependency>
